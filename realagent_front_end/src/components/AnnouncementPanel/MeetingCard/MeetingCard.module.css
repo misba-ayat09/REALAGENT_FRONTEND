@@ -1,0 +1,45 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  border-radius: calc(15px * var(--scale-factor));
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  min-height: calc(25px * var(--scale-factor));
+  max-width: calc(80px * var(--scale-factor));
+}
+
+.title {
+  color: #292929;
+  font-size: 20;
+  font-family: Roboto;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.subTitle {
+  color: #b1b1b1;
+  font-size: 16;
+  font-family: Roboto;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.text {
+  height: 30px;
+  color: #7A7A7A;
+  font-size: 16;
+  fontfamily: Roboto;
+  font-weight: 400;
+  font-height: 16px;
+  word-wrap: break-word;
+}

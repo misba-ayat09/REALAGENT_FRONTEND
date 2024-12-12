@@ -1,0 +1,9 @@
+  .article-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 5px;
+  }
+  

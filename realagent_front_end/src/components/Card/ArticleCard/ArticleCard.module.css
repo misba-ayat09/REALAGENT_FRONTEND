@@ -1,0 +1,58 @@
+.card {
+  position: relative;
+  background-color: var(--mantine-color-body);
+  transition: transform 0.2s;
+  border-radius: calc(15px * var(--scale-factor));
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 130px;
+}
+
+.headerSection {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.title {
+  display: block;
+  color: #292929;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.13px;
+  text-align: left;
+}
+
+.subTitle {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.75px;
+  text-align: left;
+  color: #292929;
+}
+
+.content {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  color: #292929;
+  min-height: auto;
+}
+.header{
+  font-size: 16px;
+  font-weight: 600;
+}
+.button{
+  width: 270px;
+  height: 40px;
+  border-radius: 40px;
+}

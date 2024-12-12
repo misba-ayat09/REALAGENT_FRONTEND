@@ -1,0 +1,196 @@
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.radiogroup{
+display: flex;
+flex-direction: column;
+gap: 5px;
+align-items: flex-start;
+justify-content: flex-start;
+align-content: flex-start;
+}
+.text_input {
+  width: calc(350px * var(--scale-factor));
+  height: calc(46px * var(--scale-factor));
+  border-radius: calc(46px * var(--scale-factor));
+  background-color: rgba(106, 106, 106, 0.1);
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 400;
+  transition: background-color 0.3s, border-color 0.3s;
+
+  &::placeholder {
+    color: rgba(106, 106, 106, 0.4);
+    font-family: Roboto;
+    font-size: calc(16px * var(--scale-factor));
+    font-weight: 400;
+    line-height: calc(19px * var(--scale-factor));
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.text_input:focus {
+  background-color: white;
+}
+
+.text_input:not(:focus) {
+  border: none;
+}
+
+.text_area {
+  width: calc(350px * var(--scale-factor));
+  height: calc(129px * var(--scale-factor));
+  border-radius: calc(10px * var(--scale-factor));
+  background-color: rgba(106, 106, 106, 0.1);
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 400;
+  border: none;
+  transition: background-color 0.3s, border-color 0.3s;
+
+  &::placeholder {
+    color: rgba(106, 106, 106, 0.4);
+    font-family: Roboto;
+    font-size: calc(16px * var(--scale-factor));
+    font-weight: 400;
+    line-height: calc(19px * var(--scale-factor));
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.text_input:focus {
+  background-color: white;
+}
+
+.text_input:not(:focus) {
+  border: none;
+}
+
+.label {
+  color: #292929;
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: white;
+  border-radius: 40px;
+  width: 70px;
+  height: 40px;
+  border: none;
+  background-color: #007BFF;
+  margin-bottom: 30px;
+
+  &:hover {
+    color: white;
+    background-color: #007BFF;
+  }
+}
+
+.headingSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-top: calc(10px * var(--scale-factor));
+  gap: calc(10px * var(--scale-factor));
+}
+
+.text1 {
+  font-size: calc(20px * var(--scale-factor));
+  font-weight: 600;
+  color: #292929;
+}
+
+.text2 {
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 400;
+  color: #595959;
+}
+
+.smallswitch {
+  position: relative;
+  width: 22px;
+  height: 13px;
+  margin-top: 8px;
+}
+
+.smallswitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.smallslider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 13px;
+}
+
+.smallslider:before {
+  position: absolute;
+  content: "";
+  height: 9px;
+  width: 9px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked+.smallslider {
+  background-color: #2196F3;
+}
+
+input:checked+.smallslider:before {
+  transform: translateX(10px);
+}
+.hr_min_input {
+  width: calc(60px * var(--scale-factor));
+  height: calc(30px * var(--scale-factor));
+  border-radius: calc(46px * var(--scale-factor));
+  background-color: rgba(106, 106, 106, 0.1);
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 400;
+  transition: background-color 0.3s, border-color 0.3s;
+
+  &::placeholder {
+    color: rgba(106, 106, 106, 0.4);
+    font-family: Roboto;
+    font-size: calc(16px * var(--scale-factor));
+    font-weight: 400;
+    line-height: calc(19px * var(--scale-factor));
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.hr_min_input:focus {
+  background-color: white;
+}
+
+.hr_min_input:not(:focus) {
+  border: none;
+}

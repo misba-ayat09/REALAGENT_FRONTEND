@@ -1,0 +1,31 @@
+.rbc-header {
+  color: #6B7A99;
+  font-size: 12px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px !important;
+  background: white;
+}
+
+.rbc-date-cell {
+  color: #6B7A99;
+  font-weight: bold;
+  font-size: 14px;
+  height: 113px;
+}
+
+.rbc-off-range {
+  color: #C4CCDD;
+}
+
+.rbc-current {
+  color: black;
+}
+
+.rbc-time-slot {
+  color: #ADB8CC;
+  font-size: 12px;
+  font-weight: 700;
+}
+

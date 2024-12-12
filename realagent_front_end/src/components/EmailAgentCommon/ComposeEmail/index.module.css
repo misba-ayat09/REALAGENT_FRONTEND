@@ -1,0 +1,17 @@
+.composeEmailLabel {
+  color: rgba(122, 122, 122, 1);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.emailInput {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.attachementTitle {
+  color: rgba(122, 122, 122, 1);
+  font-weight: 400;
+  font-size: 16px;
+}

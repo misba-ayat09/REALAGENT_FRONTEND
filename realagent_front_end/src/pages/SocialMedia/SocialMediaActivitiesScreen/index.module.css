@@ -1,0 +1,12 @@
+.Root {
+  /* height: 100vh; */
+}
+
+.title {
+  color: #292929;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.44px;
+  text-align: left;
+}

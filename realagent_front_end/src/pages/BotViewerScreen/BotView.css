@@ -1,0 +1,142 @@
+.botviewer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #ffffff;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative; /* Make sure the buttons are positioned relative to this container */
+}
+
+.botviewer-background-wrapper {
+  width: 80%; /* Scale down the image to 80% of its container's width */
+  height: auto; /* Maintain the aspect ratio */
+  overflow: hidden; /* Ensure the image does not overflow */
+  position: relative; /* Ensure the buttons are positioned relative to this wrapper */
+}
+
+.botviewer-background {
+  width: 80%; /* The image fills the width of the wrapper */
+  height: auto; /* Maintain the aspect ratio */
+  display: block;
+}
+
+/* Transparent Button Styles */
+.transparent-btn {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 8%; /* Responsive button width */
+  height: 5%; /* Responsive button height */
+}
+
+/* AI Research Agent Button - Move to the right */
+.btn-ai-research {
+  top: 15%; /* Adjust to the correct position */
+  left: 55%; /* Move to the right side of the image */
+  width: 30%; /* Adjust width based on new positioning */
+  height: 10%; /* Adjust height */
+}
+
+/* Social Media Agent Button - Move to the right */
+.btn-social-media {
+  top: 30%; /* Adjust the top position */
+  left: 65%; /* Move slightly more to the right */
+  width: 25%; /* Adjust width */
+  height: 10%; /* Adjust height */
+}
+.btn-ai-cold {
+  top: 40%;
+  left: 65%;
+  width: 25%;
+  height: 10%;
+}
+.btn-ai-phn {
+  top: 50%;
+  left: 65%;
+  width: 25%;
+  height: 10%;
+}
+/* Web Agent Button - Move to the far right */
+.btn-web-agent {
+  top: 60%; /* Adjust the top position */
+  left: 65%; /* Position further to the right */
+  width: 20%; /* Adjust width */
+  height: 10%; /* Adjust height */
+}
+
+.btn-manager-bot{
+  top: 70%; /* Adjust the top position */
+  left: 65%; /* Position further to the right */
+  width: 20%; /* Adjust width */
+  height: 10%;
+}
+.btn-assistant-bot{
+  top: 70%; /* Adjust the top position */
+  left: 40%; /* Position further to the right */
+  width: 20%; /* Adjust width */
+  height: 10%;
+}
+
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .transparent-btn {
+    width: 12%; /* Slightly bigger buttons for smaller screens */
+    height: 12%;
+  }
+
+  .btn-ai-research {
+    top: 12%; /* Adjust based on screen size */
+    left: 58%; /* Adjust for smaller screens */
+  }
+
+
+  .btn-social-media {
+    top: 92%;
+    left: 68%;
+  }
+  .btn-ai-email {
+    top: 38%; /* Adjust based on screen size */
+    left: 78%; /* Adjust for smaller screens */
+  }
+
+  .btn-ai-phn {
+    top: 22%; /* Adjust based on screen size */
+    left: 92%; /* Adjust for smaller screens */
+  }
+  .btn-web-agent {
+    top: 18%;
+    left: 78%;
+  }
+
+  .btn-manager-bot{
+    top: 18%;
+    left: 78%;
+  }
+}
+
+@media (max-width: 480px) {
+  .transparent-btn {
+    width: 15%; /* Further adjust for very small screens */
+    height: 15%;
+  }
+
+  .btn-ai-research {
+    top: 25%; /* Adjust for mobile */
+    left: 60%; /* Adjust left for mobile screens */
+  }
+
+  .btn-social-media {
+    top: 45%;
+    left: 70%;
+  }
+
+  .btn-web-agent {
+    top: 62%; /* Adjust for mobile layout */
+    left: 80%;
+  }
+}

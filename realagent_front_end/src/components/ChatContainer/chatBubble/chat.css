@@ -1,0 +1,46 @@
+.chat-bubble {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.chat-bubble.user {
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+.chat-bubble-content {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.chat-bubble .message {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+.chat-bubble.user .message {
+  background-color: #FDEE99;
+}
+
+.chat-bubble .avatar {
+  width: 30px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.user-container,
+.bot-container {
+  display: flex;
+  flex-direction: column; /* Stack image and label vertically */
+  align-items: center; /* Center align the image and label */
+}
+
+.label {
+  font-size: 12px; /* Adjust font size for labels */
+  text-align: center; /* Center the label under the image */
+  margin-top: 4px; /* Add some space between the image and label */
+}

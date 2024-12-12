@@ -1,0 +1,32 @@
+.button {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 184px;
+  height: 44px;
+  border-radius: 5px;
+  background-color: #323232;
+  &:hover {
+    background-color: #323232;
+  }
+}
+
+.tabsList {
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+
+.tabSelected {
+  background-color: #007bff;
+  color: white;
+}

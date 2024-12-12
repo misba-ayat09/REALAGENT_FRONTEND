@@ -1,0 +1,11 @@
+.MeetingRoomLeaveButton {
+  display: inline-flex;
+  padding: 15px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 41px;
+  border: 0px;
+  background: #f84f4f;
+  color: var(--background-color);
+}

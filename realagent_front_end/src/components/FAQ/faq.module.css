@@ -1,0 +1,50 @@
+.chevron {
+  &[data-rotate] {
+    transform: rotate(45deg);
+  }
+}
+
+.control {
+  height: 100px;
+  width: 100%;
+}
+
+.icon {
+  width: rem(16px);
+  height: rem(16px);
+}
+.item {
+  outline: 1px solid #007bff;
+  background: #d9d9d9;
+  border-radius: calc(15px * var(--scale-factor));
+}
+.item:hover {
+  outline: 1px solid #007bff !important;
+  background: #fcf4df !important;
+}
+.searchInput {
+  width: calc(386px * var(--scale-factor));
+  height: calc(46px * var(--scale-factor));
+  border-radius: calc(15px * var(--scale-factor));
+  background-color: rgba(106, 106, 106, 0.1);
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 600;
+  transition: background-color 0.3s, border-color 0.3s;
+  &::placeholder {
+    color: rgba(106, 106, 106, 0.4);
+    font-family: Roboto;
+    font-size: calc(16px * var(--scale-factor));
+    font-weight: 600;
+    line-height: calc(19px * var(--scale-factor));
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.searchInput:focus {
+  background-color: white;
+  border-color: #007bff;
+}
+.searchInput:not(:focus) {
+  border: none;
+}

@@ -1,0 +1,16 @@
+.tabTextActive {
+  color: #007bff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.tabTextInActive {
+  color: rgba(192, 192, 192, 1);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.composeContainer {
+  height: 100vh;
+  background-color: white;
+}

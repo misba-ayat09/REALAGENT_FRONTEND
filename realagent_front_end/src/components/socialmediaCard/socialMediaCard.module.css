@@ -1,0 +1,50 @@
+.Card{
+    background-color: rgba(241, 249, 247, 1);
+}
+.image{
+    width: 129px;
+    height: 133px;
+    object-fit: cover;
+}
+.label{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(158, 158, 158, 1);
+}
+.button1{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 184px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: #323232;
+    &:hover{
+        background-color: #323232;
+    }
+}
+.button2{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 184px;
+    height: 44px;
+    border-radius: 5px;
+    color: black;
+    border-color: rgba(170, 170, 170, 1);
+    &:hover{
+        color:black;
+    }
+}
+.button3{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 184px;
+    height: 44px;
+    border-radius: 5px;
+    background-color:rgba(255, 238, 195, 1);
+    border: none;
+    color: rgba(178, 68, 50, 1);
+    &:hover{
+        background-color: rgba(255, 238, 195, 1);
+        color: rgba(178, 68, 50, 1);
+    }
+}

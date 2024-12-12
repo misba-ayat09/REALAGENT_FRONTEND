@@ -1,0 +1,141 @@
+.modalContent {
+  min-height: calc(455px * var(--scale-factor));
+  min-width: calc(425px * var(--scale-factor));
+  @media screen and (max-width: 1500px) {
+    height: calc(800px * var(--scale-factor));
+    min-width: calc(600px * var(--scale-factor));
+  }
+}
+
+.modalHeader {
+  background-color: #007BFF;
+  min-height: calc(60px * var(--scale-factor));
+  min-width: calc(436px * var(--scale-factor));
+}
+
+.modalClose {
+  border-radius: calc(10px * var(--scale-factor));
+  color: #B24432;
+
+  &:focus {
+    background-color: #FCF4DF !important;
+    opacity: 0.5 !important;
+  }
+}
+.modalTitle {
+  color: var(--mantine-color-black);
+  font-weight: 500;
+  font-size: 24px;
+}
+.modalTitle1 {
+  color:#7A7A7A;
+  font-weight: 400;
+  font-size: 16px;
+}
+.cancelButton {
+  width: 82px;
+  height: 40px;
+  gap: 0px;
+  border-radius: 34px;
+  color: #007BFF;
+  background-color: #E6F2FF;
+}
+.cancelButton:hover {
+  background-color: #E6F2FF;
+  color: #007BFF;
+}
+.addButton {
+  width: 82px;
+  height: 40px;
+  gap: 0px;
+  border-radius: 34px;
+  color: white;
+  background-color: #007BFF;
+}
+
+.modalBody {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 30px;
+  
+  @media screen and (max-width: 1500px) {
+    min-height: calc((750px - 60px) * var(--scale-factor));
+    min-width: calc(600px * var(--scale-factor));
+  }
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: calc(15px * var(--scale-factor));
+    margin-top:  calc(40px * var(--scale-factor));
+    margin: calc(25px * var(--scale-factor));
+}
+.inputGroup{
+    display: flex;
+    flex-direction: row;
+    gap: calc(15px * var(--scale-factor));
+}
+.inputGroup_email_password{
+    display: flex;
+    flex-direction: column;
+    gap: calc(15px * var(--scale-factor));
+}
+.text_input {
+    width: calc(188px * var(--scale-factor));
+    height: calc(44px * var(--scale-factor));
+    border-radius: calc(64px * var(--scale-factor));
+    background-color: rgba(106, 106, 106, 0.1);
+    font-size: calc(16px * var(--scale-factor));
+    font-weight: 600;
+    transition: background-color 0.3s, border-color 0.3s;
+    &::placeholder {
+        color: rgba(106, 106, 106, 0.4);
+        font-family: Roboto;
+        font-size: calc(16px * var(--scale-factor));
+        font-weight: 600;
+        line-height: calc(19px * var(--scale-factor));
+        letter-spacing: 0em;
+        text-align: left;
+      }    
+}
+
+.text_input:focus {
+    background-color: white;
+}
+.text_input:not(:focus) {
+    border: none;
+}
+.label{
+    color: #292929;
+    font-size: calc(16px * var(--scale-factor));
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.email_password_input{
+    width: calc(386px * var(--scale-factor));
+    height: calc(44px * var(--scale-factor));
+    border-radius: calc(64px * var(--scale-factor));
+    background-color: rgba(106, 106, 106, 0.1);
+    color: #6A6A6A;
+    transition: background-color 0.3s, border-color 0.3s;
+    &::placeholder {
+        color: rgba(106, 106, 106, 0.4);
+        font-family: Roboto;
+        font-size: calc(16px * var(--scale-factor));
+        font-weight: 600;
+        line-height: calc(19px * var(--scale-factor));
+        letter-spacing: 0em;
+        text-align: left;
+      }    
+}
+.email_password_input:focus {
+    background-color: white;
+}
+.email_password_input:not(:focus) {
+    border: none;
+}
+

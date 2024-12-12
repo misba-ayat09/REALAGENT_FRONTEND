@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  gap: 5px; 
+}
+.title {
+  color: #292929;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 50px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: none;
+}

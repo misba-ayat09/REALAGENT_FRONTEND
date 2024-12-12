@@ -1,0 +1,46 @@
+.textInputSmall {
+  border-radius: 22px;
+  height: 34px;
+}
+
+.inputDisplay {
+  background-color: #E6F2FF;
+  color: #292929;
+  border: 0px;
+  cursor: default;
+}
+
+.title {
+  color: #292929;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.label{
+  color: #292929;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+.subTitle {
+  color: #7a7a7a;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.select {
+  border-radius: 22px;
+  height: 34px;
+  width: 100%;
+  border: none;
+  background-color: rgba(106, 106, 106, 0.1);
+  outline: none;
+  padding: 5px 20px 5px 10px;
+}
+
+.select:focus {
+  border:1px solid rgba(0, 123, 255, 1);
+}

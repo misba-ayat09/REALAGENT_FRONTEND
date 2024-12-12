@@ -1,0 +1,27 @@
+.title {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.emailPreviewContent {
+  color: rgba(131, 131, 131, 1);
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  display: -webkit-box;           /* Use the WebKit box model */
+  -webkit-box-orient: vertical;   /* Set box orientation to vertical */
+  -webkit-line-clamp: 3;          /* Number of lines to show before truncating */
+  overflow: hidden;               /* Hide the overflowed content */
+  text-overflow: ellipsis;        /* Add ellipsis (...) at the end */
+  height: calc(1.2em * 3); 
+}
+
+
+.card:hover {
+  background: #dbdbdb;
+}
+
+.contentWrapper{
+  max-height: 70px;
+  width: 100%; 
+}

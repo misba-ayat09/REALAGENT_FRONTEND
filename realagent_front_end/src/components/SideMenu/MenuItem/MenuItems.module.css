@@ -1,0 +1,35 @@
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 10px;
+  border-radius: calc(15px * var(--scale-factor));
+  width: 100%;
+  user-select: none;
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: var(--pointer-cursor), pointer;
+}
+
+.menuItemSelected {
+  background-color: #f0f4f6;
+}
+.menuItem:hover .text {
+  cursor: pointer !important;
+}
+.text {
+  font-family: Roboto;
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 600;
+  line-height: calc(19px * var(--scale-factor));
+  letter-spacing: 0em;
+  color: #7a7a7a;
+}
+
+.selectedText {
+  color: #007bff;
+}

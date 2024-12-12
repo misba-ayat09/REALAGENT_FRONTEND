@@ -1,0 +1,205 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  height: calc(576px * var(--scale-factor));
+  width: calc(1176px * var(--scale-factor));
+
+  border-radius: calc(5px * var(--scale-factor));
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  padding: calc(80px * var(--scale-factor));
+}
+
+.section:first-child {
+  width: 30%;
+
+  border-top-left-radius: calc(5px * var(--scale-factor));
+  border-bottom-left-radius: calc(5px * var(--scale-factor));
+}
+
+.section:last-child {
+  width: 70%;
+
+  border-top-right-radius: calc(5px * var(--scale-factor));
+  border-bottom-right-radius: calc(5px * var(--scale-factor));
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: flex-start;
+
+  min-height: calc(290px * var(--scale-factor));
+  max-height: 100%;
+  width: 100%;
+
+  gap: calc(40px * var(--scale-factor));
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.title {
+  font-family: Roboto;
+  font-size: calc(24px * var(--scale-factor));
+  font-weight: 500;
+  line-height: calc(28px * var(--scale-factor));
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #292929;
+}
+
+.subTitle {
+  font-family: Roboto;
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 500;
+  line-height: calc(18.75px * var(--scale-factor));
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #9e9e9e;
+}
+
+.avatarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: calc(17px * var(--scale-factor));
+}
+
+.avatar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  height: calc(83px * var(--scale-factor));
+  width: calc(83px * var(--scale-factor));
+}
+
+.avatarNotSelected {
+  cursor: var(--pointer-cursor), pointer !important;
+}
+
+.avatarSelected {
+  box-shadow: 0 0 20px 1px #FDCA47;
+}
+
+.avatarCompleted {
+  border: calc(6px * var(--scale-factor)) solid #FDCA47;
+}
+
+.avatarAbsent {
+  border: calc(6px * var(--scale-factor)) solid #B24432;
+}
+
+.avatarName {
+  max-width: calc(140px * var(--scale-factor));
+
+  font-family: Roboto;
+  font-size: calc(24px * var(--scale-factor));
+  font-weight: 400;
+  line-height: calc(28.13px * var(--scale-factor));
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #000000;
+}
+
+.avatarDesignation {
+  max-width: calc(140px * var(--scale-factor));
+
+  font-family: Roboto;
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 500;
+  line-height: calc(18.75px * var(--scale-factor));
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #9E9E9E;
+}
+
+.ratingSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: calc(24px * var(--scale-factor));
+  padding: calc(15px * var(--scale-factor));
+
+  width: calc(490px * var(--scale-factor));
+}
+
+.ratingTitle {
+  font-family: Roboto;
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 500;
+  line-height: calc(18.75px * var(--scale-factor));
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: #B24432;
+}
+
+.ratingRow {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: calc(5px * var(--scale-factor));
+}
+
+.ratingIcon {
+  height: calc(56px * var(--scale-factor));
+  width: calc(56px * var(--scale-factor));
+
+  cursor: var(--pointer-cursor), pointer !important;
+}
+
+.ratingIcon:hover {
+  opacity: 1; /* Set the opacity of the hovered icon to full */
+}
+
+.ratingRow:hover .ratingIcon:not(:hover) {
+  opacity: 0.5; /* Set the opacity of all icons except the hovered one to 0.5 */
+}
+
+.ratingIconSelected {
+  height: calc(86px * var(--scale-factor));
+  width: calc(86px * var(--scale-factor));
+}
+
+.thankYouSection {
+  display: flex;
+  min-height: calc(250px * var(--scale-factor));
+  width: 100%;
+  padding: calc(14px * var(--scale-factor));
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: calc(7px * var(--scale-factor));
+}
+
+.closeButton {
+  width: calc(218px * var(--scale-factor));
+}

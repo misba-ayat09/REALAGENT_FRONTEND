@@ -1,0 +1,120 @@
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.button1 {
+    background-color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: 2px solid #F5F6F7;
+    color: #007BFF;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 900;
+    opacity: 2px;
+    border-end-start-radius: 30px;
+    border-top-left-radius: 30px;
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+.button2 {
+    background-color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: 2px solid #F5F6F7;
+    color: #007BFF;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 900;
+    opacity: 2px;
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+.button3 {
+    background-color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: 2px solid #F5F6F7;
+    color: #007BFF;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 900;
+    opacity: 2px;
+    border-start-end-radius: 30px;
+    border-end-end-radius: 30px;
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+.view-button {
+    background-color: white;
+}
+
+.view-button.active {
+    color: #007BFF;
+}
+
+.view-button.inactive {
+    color: #6B7A99;
+}
+
+.back_label_next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6B7A99;
+}
+
+.back_button {
+    padding: 8px 12px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 900;
+    opacity: 2px;
+    background-color: white;
+    border: 2px solid #F5F6F7;
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+.todayButton {
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 900;
+    opacity: 2px;
+    background-color: white;
+    border: 2px solid #F5F6F7;
+    color: #6B7A99;
+
+    &:hover {
+        background-color: white;
+        color: #6B7A99;
+    }
+}

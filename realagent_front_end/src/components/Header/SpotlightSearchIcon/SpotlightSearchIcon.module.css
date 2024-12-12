@@ -1,0 +1,20 @@
+.iconContainer {
+  display: block;
+  width: calc(46px * var(--scale-factor));
+  height: calc(46px * var(--scale-factor));
+  background-color: #EEEEEE;
+
+  &:hover {
+    background-color: #EEEEEE;
+  }
+}
+
+.icon {
+  background-color: #EEEEEE;
+  width: calc(46px * var(--scale-factor));
+  height: calc(46px * var(--scale-factor));
+}
+
+.iconActive {
+  background-color: #EEEEEE;
+}

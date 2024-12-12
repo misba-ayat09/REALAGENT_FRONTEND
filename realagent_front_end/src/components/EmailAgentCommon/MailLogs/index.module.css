@@ -1,0 +1,15 @@
+.sectionDayIndicator {
+  display: flex;
+  background: rgba(243, 246, 248, 1);
+  height: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.dayIndicatorTitle {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}

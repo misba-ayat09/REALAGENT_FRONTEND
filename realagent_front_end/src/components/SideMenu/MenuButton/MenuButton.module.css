@@ -1,0 +1,40 @@
+.menuButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: calc(15px * var(--scale-factor));
+  width: 100%;
+
+  @media (max-width: 998px) {
+    justify-content: center;
+    border-radius: calc(15px * var(--scale-factor));
+    padding: calc(12px * var(--scale-factor));
+    height: calc(48px * var(--scale-factor));
+    width: calc(48px * var(--scale-factor));
+  }
+
+  cursor: var(--pointer-cursor), pointer;
+}
+
+.menuButtonSelected {
+  background-color: white;
+}
+
+.text {
+  font-family: Roboto;
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 600;
+  line-height: calc(19px * var(--scale-factor));
+  letter-spacing: 0em;
+  color:black;
+  @media (max-width: 998px) {
+    display: none;
+  }
+}
+
+.selectedText {
+  color: var(--btn-action);
+}

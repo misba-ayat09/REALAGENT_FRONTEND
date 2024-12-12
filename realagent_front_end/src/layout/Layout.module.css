@@ -1,0 +1,151 @@
+:root {
+  --gap-padding: 16px;
+  --header-height: calc(72px * var(--scale-factor));
+}
+
+.main,
+.navbar,
+.mainPaddingWithNavbar,
+.mainPaddingWithAside,
+.aside {
+  background: var(--background-color);
+}
+
+.main {
+  --main-padding-top: var(--gap-padding);
+  --main-padding-bottom: var(--gap-padding);
+
+  width: 100%;
+  min-width: calc(744px * var(--scale-factor));
+  padding-top: calc(
+    var(--header-height) + var(--main-padding-top) * var(--scale-factor)
+  );
+  padding-bottom: calc(var(--main-padding-bottom) * var(--scale-factor));
+
+  border-radius: calc(15px * var(--scale-factor));
+}
+
+.mainPaddingWithNavbar {
+  --mainPaddingWithNavbar-padding-left: 305px;
+
+  padding-left: calc(
+    (var(--mainPaddingWithNavbar-padding-left) + var(--gap-padding)) *
+      var(--scale-factor)
+  );
+
+  @media (max-width: 800px) {
+    --mainPaddingWithNavbar-padding-left: 120px;
+  }
+}
+
+.mainPaddingWithAside {
+  --mainPaddingWithAside-padding-right: 479px;
+
+  padding-right: calc(
+    (var(--mainPaddingWithAside-padding-right) + var(--gap-padding)) *
+      var(--scale-factor)
+  );
+
+  @media (max-width: 800px) {
+    --mainPaddingWithAside-padding-right: 25px;
+  }
+
+  @media (min-width: 801px) and (max-width: 1100px) {
+    --mainPaddingWithAside-padding-right: 50px;
+  }
+
+  @media (min-width: 1101px) {
+    --mainPaddingWithAside-padding-right: 296px;
+  }
+
+  @media (min-width: 1201px) {
+    --mainPaddingWithAside-padding-right: 354px;
+  }
+
+  @media (min-width: 1401px) {
+    --mainPaddingWithAside-padding-right: 404px;
+  }
+
+  @media (min-width: 1501px) and (max-width: 1600px) {
+    --mainPaddingWithAside-padding-right: 404px;
+  }
+}
+
+.navbar {
+  --navbar-width: 277px;
+  --navbar-padding-left: 50px;
+  --navbar-padding-top: var(--gap-padding);
+  --navbar-padding-bottom: 82px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+  gap: calc(16px * var(--scale-factor));
+
+  width: calc((var(--navbar-width) + var(--gap-padding)) * var(--scale-factor));
+  padding-left: calc(var(--navbar-padding-left) * var(--scale-factor));
+  padding-top: calc(var(--navbar-padding-top) * var(--scale-factor));
+  padding-bottom: calc(var(--navbar-padding-bottom) * var(--scale-factor));
+
+  @media (max-width: 800px) {
+    --navbar-width: 25px;
+    --navbar-padding-left: 25px;
+  }
+
+  @media (min-width: 1101px) {
+    --navbar-width: 277px;
+  }
+
+  @media (min-width: 1201px) {
+    --navbar-width: 277px;
+  }
+
+  @media (min-width: 1401px) {
+    --navbar-width: 277px;
+  }
+
+  @media (min-width: 1501px) {
+    --navbar-width: 277px;
+  }
+}
+
+.aside {
+  --aside-width: 479px;
+  --aside-padding-right: 50px;
+  --aside-padding-top: var(--gap-padding);
+  --aside-padding-bottom: 82px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+  gap: calc(16px * var(--scale-factor));
+
+  width: calc((var(--aside-width) + var(--gap-padding)) * var(--scale-factor));
+  padding-right: calc(var(--aside-padding-right) * var(--scale-factor));
+  padding-top: calc(var(--aside-padding-top) * var(--scale-factor));
+  padding-bottom: calc(var(--aside-padding-bottom) * var(--scale-factor));
+
+  @media (min-width: 1101px) {
+    --aside-width: 280px;
+  }
+
+  @media (min-width: 1201px) {
+    --aside-width: 329px;
+  }
+
+  @media (min-width: 1401px) {
+    --aside-width: 379px;
+  }
+
+  @media (min-width: 1501px) and (max-width: 1600px) {
+    --aside-width: 379px;
+  }
+
+  @media (max-width: 1100px) {
+    --aside-width: 16px;
+  }
+}

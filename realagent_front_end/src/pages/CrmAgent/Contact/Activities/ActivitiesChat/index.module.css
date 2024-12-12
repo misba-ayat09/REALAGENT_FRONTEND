@@ -1,0 +1,30 @@
+.wrapper {
+  background-color: white;
+  padding: 20px 0px;
+}
+.button {
+  width: calc(101px * var(--scale-factor));
+  height: calc(44px * var(--scale-factor));
+  background-color: #f0f5f8;
+  border-radius: calc(44px * var(--scale-factor));
+  font-size: calc(16px * var(--scale-factor));
+  line-height: calc(18px * var(--scale-factor));
+  font-weight: 500;
+  color: #007bff;
+  &:hover {
+    background-color: #f0f5f8;
+    color: #007bff;
+  }
+}
+.text2 {
+  font-size: calc(24px * var(--scale-factor));
+  line-height: calc(28px * var(--scale-factor));
+  font-weight: 700;
+  color: black;
+}
+.text3 {
+  font-size: calc(16px * var(--scale-factor));
+  line-height: calc(18px * var(--scale-factor));
+  font-weight: 400;
+  color: black;
+}

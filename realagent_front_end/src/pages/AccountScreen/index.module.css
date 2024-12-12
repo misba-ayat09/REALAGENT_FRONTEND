@@ -1,0 +1,18 @@
+.input {
+  width: 386px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #6a6a6a1a;
+  &:focus {
+    outline: #007bff;
+    border: 1px solid #007bff;
+    background: #f3eefa;
+  }
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: calc(15px * var(--scale-factor));
+}

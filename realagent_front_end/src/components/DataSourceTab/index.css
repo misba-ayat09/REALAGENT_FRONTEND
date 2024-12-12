@@ -1,0 +1,121 @@
+.flat div,
+.flat div:after {
+  background: rgba(250, 247, 253, 1);
+  color: #007BFF;
+  font-weight: 600;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flat div:hover,
+.flat div.active,
+.flat div:hover:after,
+.flat div.active:after {
+  background: #007BFF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.breadcrumb div {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  float: left;
+  font-size: 12px;
+  line-height: 36px;
+  color: white;
+  padding: 0 10px 0 60px;
+  background: #666;
+  background: linear-gradient(#666, #333);
+  position: relative;
+}
+
+.breadcrumb div:first-child {
+  padding-left: 46px;
+  border-radius: 5px 0 0 5px;
+}
+.breadcrumb div:first-child::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -18px;
+  width: 36px;
+  height: 36px;
+  transform: scale(0.707) rotate(45deg);
+  background-color: white;
+  border: none;
+  outline: none;
+  border-color: white;
+  box-shadow: none;
+}
+.breadcrumb div:last-child::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -18px;
+  width: 36px;
+  height: 36px;
+  transform: scale(0.707) rotate(45deg);
+  background-color: white;
+  border: none;
+  outline: none;
+  border-color: white;
+  box-shadow: none;
+}
+
+.breadcrumb div:last-child {
+  padding-right: 20px;
+}
+
+.breadcrumb div.active,
+.breadcrumb div:hover {
+  background: #333;
+  background: linear-gradient(#333, #000);
+}
+
+.breadcrumb div.active:after,
+.breadcrumb div:hover:after {
+  background: #333;
+  background: linear-gradient(135deg, #333, #000);
+}
+
+.breadcrumb div:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -18px;
+  width: 36px;
+  height: 36px;
+  transform: scale(0.707) rotate(45deg);
+  z-index: 1;
+  box-shadow: 2px -2px 0 2px rgba(255, 253, 253, 0.4),
+    3px -3px 0 2px rgba(255, 255, 255, 0.1);
+  border-radius: 0 5px 0 50px;
+}
+
+.breadcrumb div:last-child:after {
+  content: none;
+}
+
+.flat div,
+.flat div:after {
+  background: rgba(250, 247, 253, 1);
+  color: #007BFF;
+  transition: all 0.5s;
+}
+
+.flat div:before {
+  background: rgba(250, 247, 253, 1);
+  box-shadow: 0 0 0 1px #ccc;
+}
+
+.flat div:hover,
+.flat div.active,
+.flat div:hover:after,
+.flat div.active:after {
+  background: #007BFF;
+}

@@ -1,0 +1,7 @@
+.chat {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: calc(15px * var(--scale-factor));
+  min-width: calc(500px * var(--scale-factor));
+  /* border: 1px solid #C1C2C5;  */
+}

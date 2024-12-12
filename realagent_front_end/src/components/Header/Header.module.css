@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(72px * var(--scale-factor));
+  min-width: calc(744px * var(--scale-factor));
+  width: 100%;
+  background-color: var(--background-color2);
+  border-bottom: rem(1px) solid var(--mantine-color-gray-3);
+  padding-left: calc(50px * var(--scale-factor));
+  padding-right: calc(50px * var(--scale-factor));
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: calc(429px * var(--scale-factor));
+  gap: calc(24px * var(--scale-factor));
+}

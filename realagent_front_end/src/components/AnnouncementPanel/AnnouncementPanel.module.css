@@ -1,0 +1,7 @@
+.main {
+  height: 230px;
+  min-width: calc(280px * var(--scale-factor));
+  width: 100%;
+  border-radius: calc(15px * var(--scale-factor));
+  background: transparent;
+}

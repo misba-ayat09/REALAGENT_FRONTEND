@@ -1,0 +1,93 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchWeb {
+  min-width: calc(200px * var(--scale-factor));
+  width: calc(800px * var(--scale-factor));
+
+  @media (max-width: 1100px) {
+    display: none;
+  }
+
+  @media (min-width: 1101px) and (max-width: 1200px) {
+    width: calc(300px * var(--scale-factor));
+  }
+
+  @media (min-width: 1201px) and (max-width: 1300px) {
+    width: calc(400px * var(--scale-factor));
+  }
+
+  @media (min-width: 1301px) and (max-width: 1400px) {
+    width: calc(500px * var(--scale-factor));
+  }
+
+  @media (min-width: 1401px) and (max-width: 1500px) {
+    width: calc(600px * var(--scale-factor));
+  }
+}
+
+.input {
+  border: 0px;
+  height: calc(46px * var(--scale-factor));
+  padding-left: calc(64px * var(--scale-factor));
+  background: var(--mantine-primary-color-1);
+  transition: background-color 100ms ease;
+
+  &::placeholder {
+    font-size: calc(16px * var(--scale-factor));
+    color: #6a6a6a;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(14px * var(--scale-factor));
+  }
+  &:hover {
+    background: var(--mantine-primary-color-1);
+  }
+}
+
+.action {
+  &:hover {
+    background: var(--mantine-primary-color-1);
+  }
+  &:where([data-selected]) {
+    background: var(--mantine-primary-color-1);
+  }
+}
+
+.actionsGroup {
+  color: #8B939A;
+  font-family: Roboto;
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 600;
+  line-height: calc(19px * var(--scale-factor));
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.actionLabel {
+  color: var(--color-text);
+  font-family: Roboto;
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 600;
+  line-height: calc(19px * var(--scale-factor));
+  letter-spacing: 0em;
+  text-align: left;
+
+  &:hover {
+    color: var(--mantine-primary-color-1);
+  }
+}
+
+.actionDescription {
+  color: #C0C6CC;
+  font-family: Roboto;
+  font-size: calc(16px * var(--scale-factor));
+  font-weight: 400;
+  line-height: calc(21px * var(--scale-factor));
+  letter-spacing: 0em;
+  text-align: left;
+}

@@ -1,0 +1,168 @@
+.root {
+  min-height: 100vh;
+  width: 100vw;
+  min-width: 468px;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+
+  padding: 0px 25px;
+
+  @media only screen and (min-width: 768px) {
+    padding: 0px 50px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    padding: 0px 100px;
+  }
+
+  @media only screen and (min-width: 1600px) {
+    padding: 0px 200px;
+  }
+}
+
+.logo {
+  width: 187.09px;
+}
+
+.logoText {
+  width: 145px;
+}
+
+.label {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+}
+
+.title {
+  color: #000000;
+
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 37.5px;
+  text-align: center;
+}
+
+.button {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.13px;
+  border-radius: 52px;
+
+  width: 386px;
+  height: 60px;
+
+  @media only screen and (max-width: 504px) {
+    font-size: 20px;
+    line-height: 23.44px;
+    width: 297px;
+    height: 50px;
+  }
+}
+
+.socialMediaTitle {
+  color: #1d1d1d;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: left;
+}
+
+.socialMediaTag {
+  color: #acacac;
+
+  font-family: Inter;
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+}
+
+.divider {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.waitlist_join .text_1 {
+  margin: 50px 0 30px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0;
+  line-height: 1.6em;
+  color: #292929;
+}
+
+.waitlist_join .text_1 span {
+  color: #007bff;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+
+.waitlist_join .text_2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #292929;
+}
+
+.waitlist_join button {
+  width: 250px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.waitlist_thank_you {
+  text-align: center;
+}
+
+.waitlist_thank_you .text_1 {
+  margin: 50px 0 60px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+
+.waitlist_thank_you .text_1 span {
+  font-size: 24px;
+  color: #007bff;
+  font-weight: 700;
+}
+
+.waitlist_thank_you .text_2 {
+  margin: 50px 0 60px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.waitlist_thank_you .text_2 span {
+  color: #007bff;
+  font-weight: 500;
+}
+
+.waitlist_thank_you button {
+  width: 250px;
+  height: 50px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+
+.waitlist_joining{
+  margin: 50px 0 60px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.6em;
+  min-height: 200px;
+}

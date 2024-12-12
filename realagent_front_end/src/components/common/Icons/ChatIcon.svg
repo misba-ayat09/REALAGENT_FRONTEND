@@ -1,0 +1,19 @@
+<svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3844_6361)">
+<rect width="54" height="54" rx="27" fill="#007BFF"/>
+<rect x="7.78369" y="14.5801" width="42.6236" height="33.9374" rx="10.3812" transform="rotate(15 7.78369 14.5801)" fill="white"/>
+<rect x="10.5273" y="19.7793" width="34.6345" height="15.7554" rx="7.87771" transform="rotate(15 10.5273 19.7793)" fill="#007BFF"/>
+<ellipse cx="15.5664" cy="29.2833" rx="2.91683" ry="2.91682" transform="rotate(15 15.5664 29.2833)" fill="white"/>
+<ellipse cx="35.001" cy="34.4903" rx="2.91683" ry="2.91682" transform="rotate(15 35.001 34.4903)" fill="white"/>
+<rect width="4.84932" height="8.00135" transform="matrix(0.965926 0.258819 0.258819 -0.965926 25.9902 19.5762)" fill="white"/>
+<ellipse cx="31.3784" cy="9.05469" rx="4.68531" ry="4.68529" transform="rotate(15 31.3784 9.05469)" fill="white"/>
+<ellipse cx="31.3945" cy="9.08213" rx="2.91683" ry="2.91682" transform="rotate(15 31.3945 9.08213)" fill="#007BFF"/>
+<path d="M16.1455 43.3047C20.5377 45.5982 22.9905 46.1028 27.508 45.2376" stroke="#007BFF" stroke-width="1.04779" stroke-linecap="round"/>
+</g>
+<rect x="0.5" y="0.5" width="53" height="53" rx="26.5" stroke="#007BFF"/>
+<defs>
+<clipPath id="clip0_3844_6361">
+<rect width="54" height="54" rx="27" fill="white"/>
+</clipPath>
+</defs>
+</svg>

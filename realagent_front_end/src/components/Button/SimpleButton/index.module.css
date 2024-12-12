@@ -1,0 +1,37 @@
+.button {
+  display: flex;
+  height: 40px;
+  padding: 7px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 40px;
+  max-width: 100%;
+  min-width: 150px;
+  width: auto; /* Allow auto resizing */
+}
+
+.buttonLabel {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: normal;
+}
+@media (max-width: 768px) {
+  .button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+

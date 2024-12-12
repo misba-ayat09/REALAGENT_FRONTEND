@@ -1,0 +1,83 @@
+.ContactViewDetails {
+  padding: 16px;
+  align-items: flex-start;
+  width: 100%;
+
+  .profilePhoto {
+    margin-bottom: 10px;
+  }
+
+  .name {
+    font-size: 24px;
+    font-weight: 500;
+    color: #292929;
+    margin-bottom: 10px;
+  }
+
+
+  .contactDetails {
+    margin-bottom: 10px;
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      color: #292929;
+      margin-right: 25px;
+    }
+  }
+
+  .description {
+    width: 60%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #595959;
+    margin-bottom: 15px;
+  }
+
+  .shortcutButton {
+
+    button {
+      position: relative;
+      height: auto;
+      padding: 0;
+      width: auto;
+      padding: 0 8px;
+      margin-right: 10px;
+
+      &:hover {
+        background: none;
+        outline: none;
+      }
+
+      button {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      p {
+        padding-top: 40px;
+        color: #000000;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .lastContacted {
+    width: 100%;
+    text-align: right;
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      color: #292929;
+
+      span {
+        color: #B1B1B1 !important;
+      }
+    }
+  }
+
+}

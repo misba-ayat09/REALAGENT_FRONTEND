@@ -1,0 +1,40 @@
+
+.fileName {
+  text-align: left;
+  color: #292929;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.icon {
+  margin: auto 0;
+}
+
+.preview {
+  width: 330px;
+  height: 386px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.checkbox {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.imageContainer {
+  position: relative;
+  display: inline-block;
+}
+.icon {
+  cursor: pointer;
+}

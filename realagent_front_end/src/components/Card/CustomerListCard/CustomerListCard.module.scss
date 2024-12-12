@@ -1,0 +1,140 @@
+$searchBoxWidth: 250px;
+
+main>div>div {
+  border-radius: 15px;
+  padding: 10px 0;
+}
+
+.customerListMain {
+
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: $searchBoxWidth;
+
+    input {
+      width: $searchBoxWidth;
+      background: rgba(106, 106, 106, 0.1);
+      border-radius: 50px;
+      border: none;
+      outline: none;
+    }
+
+    .searchButton {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      padding: 0 16px;
+      border: none;
+      border-radius: 0 4px 4px 0;
+      color: white;
+      cursor: pointer;
+      background: none;
+
+      &:hover {
+        background: none;
+      }
+
+    }
+  }
+
+  .sortButton {
+    background: none;
+
+    img {
+      margin-right: 5px;
+    }
+
+    span {
+      color: #292929;
+      font-size: 16px;
+    }
+
+    &:hover {
+      background: none;
+    }
+
+  }
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    justify-content: space-evenly;
+    align-items: left;
+    text-align: left;
+    border-top: 2px solid #DCE5EA;
+    margin-top: 6px;
+
+    thead tr th {
+      font-size: 15px;
+      color: #7A7A7A;
+      font-weight: 500;
+      padding: 25px 15px 20px;
+    }
+
+    tbody tr {
+
+      td {
+        padding: 15px;
+        color: #595959;
+        font-size: 15px;
+        font-weight: 400;
+
+        &:first-of-type {
+          position: relative;
+
+          button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10px;
+          }
+
+          span {
+            position: relative;
+            padding-left: 28px;
+            top: -2px;
+            color: #292929;
+            font-size: 15px;
+            font-weight: 600;
+          }
+        }
+
+        &:last-of-type {
+          button {
+            background: none;
+
+            &:hover {
+              background: none;
+              outline: none;
+            }
+          }
+        }
+      }
+
+      &:nth-child(odd) {
+        background: #F8F9F9;
+      }
+
+      &:hover {
+        background: rgba(106, 106, 106, 0.1);
+      }
+    }
+  }
+
+  .notFound {
+    position: relative;
+    min-height: calc(100vh - 210px);
+    text-align: center;
+
+    p {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: #D90D0D;
+    }
+  }
+}

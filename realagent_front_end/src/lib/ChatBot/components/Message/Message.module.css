@@ -1,0 +1,51 @@
+.messageWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.message {
+  padding: 10px;
+  margin: 5px 0;
+  max-width: 90%;
+  display: flex;
+  border-radius: 10px;
+}
+
+.messageUser {
+  background-color: rgba(203, 239, 213, 1);
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.messageBot {
+  background-color: #FFF1A9;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.messageQn {
+  background-color: transparent;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.dateTime {
+  margin-bottom: 4px;
+  color: #888;
+  font-weight: 300;
+}
+
+.dateTimeLeft {
+  text-align: left;
+}
+
+.dateTimeRight {
+  text-align: right;
+}

@@ -1,0 +1,48 @@
+.chat-message {
+  margin-bottom: 20px;
+}
+
+.message-header {
+  display: flex;
+  margin-bottom: 5px;
+  gap: 10px;
+  margin-top: 5px;
+  color: #020202;
+  border-radius: calc(15px * var(--scale-factor));
+}
+.message-content {
+  max-width: 100%;
+  padding: 10px;
+  border-radius: calc(15px * var(--scale-factor));
+}
+.sender {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.time {
+  font-size: 12px;
+  color: gray;
+}
+
+.message-text {
+  padding: 10px;
+  background-color: #FFFACC;
+  border-radius: 5px;
+}
+
+.ans-message-text {
+  padding: 10px;
+  background-color: #CBEFD5;
+  border-radius: 5px;
+}
+.client .message-content {
+  align-self: flex-start;
+  border-radius: 10px 10px 10px 0;
+  margin-right: auto;
+}
+.agent .message-content {
+  align-self: flex-end;
+  border-radius: 10px 10px 0 10px;
+  margin-left: auto;
+}

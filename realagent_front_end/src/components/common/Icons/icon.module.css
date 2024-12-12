@@ -1,0 +1,3 @@
+.iconCursor {
+  cursor: var(--pointer-cursor), pointer !important;
+}

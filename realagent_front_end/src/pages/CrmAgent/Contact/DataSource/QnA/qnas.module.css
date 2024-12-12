@@ -1,0 +1,21 @@
+.textareaInputLarge {
+  border-radius: 10px;
+  height: 278px;
+}
+
+.textareaInputSmall {
+  border-radius: 10px;
+  height: 146px;
+}
+
+.textInputSmall {
+  border-radius: 22px;
+  height: 34px;
+}
+
+.inputDisplay {
+  background-color: #E6F2FF;
+  color: #292929;
+  border: 0px;
+  cursor: default;
+}

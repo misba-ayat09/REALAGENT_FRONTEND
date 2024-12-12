@@ -1,0 +1,87 @@
+.Card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.headerSection {
+  height: 40px;
+  margin-bottom: 10px;
+}
+.editBtn {
+  cursor: pointer;
+  color: #007BFF;
+}
+.icon{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #E6F2FF;
+}
+.image {
+  width: 200px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.header {
+  font-size: 16px;
+  font-weight: 600;
+  color: #494949;
+}
+.time {
+  font-size: 14px;
+  color: #888;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.contentSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+.contentText {
+  font-size: 14px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.button1 {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 111px;
+  height: 34px;
+  border-radius: 20px;
+  background-color: #007BFF;
+  color: #fff;
+  &:hover {
+    background-color: #0e394c;
+  }
+}

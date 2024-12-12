@@ -1,0 +1,34 @@
+.main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  border-radius: calc(15px * var(--scale-factor));
+  /* background-color: #FFFAED; */
+
+  gap: calc(15px * var(--scale-factor));
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+  min-width: calc(80px * var(--scale-factor));
+}
+
+.image {
+  min-height: calc(25px * var(--scale-factor));
+  max-width: calc(80px * var(--scale-factor));
+}
+
+.text {
+  color: var(--color-text);
+  font-family: Roboto;
+  font-size: calc(14px * var(--scale-factor));;
+  font-weight: 400;
+  line-height: calc(16px * var(--scale-factor));
+  letter-spacing: 0em;
+  text-align: left;
+}

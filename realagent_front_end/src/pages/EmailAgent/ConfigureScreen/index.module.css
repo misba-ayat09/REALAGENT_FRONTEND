@@ -1,0 +1,54 @@
+.fileInput {
+  display: flex;
+  width: calc(386px * var(--scale-factor));
+  height: calc(76px * var(--scale-factor));
+  border-radius: calc(4px * var(--scale-factor));
+  padding: 80px, 25px, 80px, 25px;
+  border: 2px dashed #ccc;
+
+  &::placeholder {
+    color: black;
+    font-family: Roboto;
+    font-size: calc(16px * var(--scale-factor));
+    font-weight: 600;
+    line-height: calc(19px * var(--scale-factor));
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.customfileupload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 76px;
+  width: 386px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 20px;
+  text-align: center;
+  color: #999;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.customfileupload:hover {
+  background-color: #f0f0f0;
+  border-color: #aaa;
+}
+
+.customfileupload .uploadIcon {
+  font-size: 24px;
+  color: #9b0a0a;
+  margin-bottom: 10px;
+}
+
+.fileInput {
+  display: none;
+}

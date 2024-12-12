@@ -1,0 +1,85 @@
+.modalRoot {
+}
+
+.modalOverlay {
+}
+
+.modalContent {
+  min-height: 300px;
+  width: 895px;
+  min-width: 895px;
+  max-width: 895px;
+}
+
+
+.modalTitle {
+  color: var(--mantine-color-black);
+  font-weight: 500;
+  font-size: 24px;
+}
+.modalTitle1 {
+  color:#7A7A7A;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.modalClose {
+  color: var(--mantine-color-white);
+}
+
+.modalClose:hover {
+  background-color: var(--mantine-color-violet-8);
+}
+
+.modalBody {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 10px;
+}
+
+.image {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.descriptionWrapper {
+  flex: 1;
+}
+
+.title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.75px;
+  letter-spacing: -0.004em;
+  text-align: left;
+}
+
+.cancelButton {
+  width: 82px;
+  height: 40px;
+  gap: 0px;
+  border-radius: 34px;
+  color: #007BFF;
+  background-color: #E6F2FF;
+}
+.cancelButton:hover {
+  background-color: #E6F2FF;
+  color: #007BFF;
+}
+.saveButton {
+  width: 82px;
+  height: 40px;
+  gap: 0px;
+  border-radius: 34px;
+  color: white;
+  background-color: #007BFF;
+}

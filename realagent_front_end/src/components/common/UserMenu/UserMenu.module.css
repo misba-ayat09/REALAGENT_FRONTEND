@@ -1,0 +1,21 @@
+.user {
+  color: black;
+  border-radius: calc(15px * var(--scale-factor));
+  border:white;
+  transition: background-color 100ms ease;
+}
+
+
+.contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name {
+  font-family: Small - Semibold;
+  font-style: normal;
+  text-align: left;
+  color: black;
+}

@@ -1,0 +1,66 @@
+.ContactViewDetails {
+  padding: 16px;
+  align-items: flex-start;
+  width: 100%;
+}
+.ContactViewDetails .profilePhoto {
+  margin-bottom: 10px;
+}
+.ContactViewDetails .name {
+  font-size: 24px;
+  font-weight: 500;
+  color: #292929;
+  margin-bottom: 10px;
+}
+.ContactViewDetails .contactDetails {
+  margin-bottom: 10px;
+}
+.ContactViewDetails .contactDetails p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #292929;
+  margin-right: 25px;
+}
+.ContactViewDetails .description {
+  width: 60%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #595959;
+  margin-bottom: 15px;
+}
+.ContactViewDetails .shortcutButton button {
+  position: relative;
+  height: auto;
+  padding: 0;
+  width: auto;
+  padding: 0 8px;
+  margin-right: 10px;
+}
+.ContactViewDetails .shortcutButton button:hover {
+  background: none;
+  outline: none;
+}
+.ContactViewDetails .shortcutButton button button {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ContactViewDetails .shortcutButton button p {
+  padding-top: 40px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+}
+.ContactViewDetails .lastContacted {
+  width: 100%;
+  text-align: right;
+}
+.ContactViewDetails .lastContacted p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #292929;
+}
+.ContactViewDetails .lastContacted p span {
+  color: #B1B1B1 !important;
+}/*# sourceMappingURL=ContactViewDetails.module.css.map */

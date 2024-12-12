@@ -1,0 +1,33 @@
+.headerSection {
+  margin-bottom: 10px;
+}
+
+.header {
+  font-size: 16px;
+  font-weight: 600;
+  color: #494949;
+}
+
+.time {
+  font-size: 14px;
+  color: #888;
+}
+
+
+.title {
+  color: #292929;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.detail {
+  color: #595959;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -1,0 +1,55 @@
+.modalContent {
+    min-height: calc(25px * var(--scale-factor));
+    min-width: calc(426px * var(--scale-factor));
+    @media screen and (max-width: 1500px) {
+      height: calc(800px * var(--scale-factor));
+      min-width: calc(600px * var(--scale-factor));
+    }
+  }
+  
+  .modalHeader {
+    background-color: #007BFF;
+    min-height: calc(60px * var(--scale-factor));
+    min-width: calc(426px * var(--scale-factor));
+  }
+  
+  .modalClose {
+    border-radius: calc(10px * var(--scale-factor));
+    color: #B24432;
+  
+    &:focus {
+      background-color: #FCF4DF !important;
+      opacity: 0.5 !important;
+    }
+  }
+  .modalTitle {
+    font-family: Roboto;
+    font-size: calc(20px * var(--scale-factor));
+    font-weight: 600;
+    line-height: calc(23px * var(--scale-factor));
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .modalBody {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 30px;
+    
+    @media screen and (max-width: 1500px) {
+      min-height: calc((750px - 60px) * var(--scale-factor));
+      min-width: calc(600px * var(--scale-factor));
+    }
+  }
+  .inputContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: calc(15px * var(--scale-factor));
+      margin-top:  calc(40px * var(--scale-factor));
+      margin: calc(25px * var(--scale-factor));
+  }

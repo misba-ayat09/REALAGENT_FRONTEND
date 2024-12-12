@@ -1,0 +1,71 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+.slide {
+  position: absolute;
+  left: 50%;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  transform: translate(-50.1%, -34%);
+  background: transparent;
+  /* animation: carousel-animate-vertical 27s linear infinite; */
+}
+
+.slideInactive {
+  opacity: 0.5;
+  width: 95%;
+  height: 85%;
+}
+
+.slideActive {
+  opacity: 1;
+  width: 100%;
+  height: 90%;
+  z-index: 3;
+}
+
+/* @keyframes carousel-animate-vertical {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+    visibility: hidden;
+  }
+  3%,
+  11.11% {
+    transform: scale(0.7);
+    opacity: 0.4;
+    visibility: visible;
+  }
+  14.11%,
+  22.22% {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+  25.22%,
+  33.33% {
+    transform: scale(0.7);
+    opacity: 0.4;
+    visibility: visible;
+  }
+  36.33% {
+    transform: scale(0.5);
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    transform: scale(0.5);
+    opacity: 0;
+    visibility: hidden;
+  }
+} */

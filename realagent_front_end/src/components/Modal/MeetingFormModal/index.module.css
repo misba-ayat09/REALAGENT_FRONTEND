@@ -1,0 +1,55 @@
+.text {
+  color: #292929;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.subText {
+  color: #7A7A7A;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.textInput {
+  display: flex;
+  height: calc(40px * var(--scale-factor));
+  width: 100%;
+  padding: calc(6px * var(--scale-factor)) calc(14px * var(--scale-factor));
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: calc(10px * var(--scale-factor));
+  align-self: stretch;
+  border-radius: calc(15px * var(--scale-factor));
+  border: 0;
+  background-color: rgba(106, 106, 106, 0.1) !important;
+}
+
+.textArea {
+  display: flex;
+  height: calc(129px * var(--scale-factor));
+  width: 100%;
+  padding: calc(6px * var(--scale-factor)) calc(14px * var(--scale-factor));
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: calc(10px * var(--scale-factor));
+  align-self: stretch;
+  border-radius: calc(15px * var(--scale-factor));
+  border: 0;
+  background-color: rgba(106, 106, 106, 0.1) !important;
+}
+
+.pillsInput {
+  width: 100%;
+  padding: calc(6px * var(--scale-factor)) calc(14px * var(--scale-factor));
+  border-radius: calc(15px * var(--scale-factor));
+  border: 0;
+  background-color: rgba(106, 106, 106, 0.1) !important;
+}

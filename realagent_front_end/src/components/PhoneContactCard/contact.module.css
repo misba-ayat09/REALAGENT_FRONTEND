@@ -1,0 +1,58 @@
+  .modalContent {
+    min-height: calc(195px * var(--scale-factor));
+    min-width: calc(425px * var(--scale-factor));
+    @media screen and (max-width: 1500px) {
+      height: calc(300px * var(--scale-factor));
+      min-width: calc(600px * var(--scale-factor));
+    }
+  }
+  
+  .modalHeader {
+    background-color: #007BFF;
+    min-height: calc(60px * var(--scale-factor));
+    min-width: calc(436px * var(--scale-factor));
+  }
+    .modalTitle {
+    color: var(--mantine-color-black);
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .modalTitle1 {
+    color:#7A7A7A;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .cancelButton {
+    width: 82px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 34px;
+    color: #007BFF;
+    background-color: #E6F2FF;
+  }
+  .cancelButton:hover {
+    background-color: #E6F2FF;
+    color: #007BFF;
+  }
+  .addButton {
+    width: 82px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 34px;
+    color: white;
+    background-color: #007BFF;
+  }
+  
+  .modalBody {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 30px;
+    
+    @media screen and (max-width: 1500px) {
+      min-height: calc((750px - 60px) * var(--scale-factor));
+      min-width: calc(600px * var(--scale-factor));
+    }
+  }
+  

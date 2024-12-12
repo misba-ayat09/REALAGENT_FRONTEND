@@ -1,0 +1,108 @@
+main > div > div {
+  border-radius: 15px;
+  padding: 10px 0;
+}
+
+.customerListMain .searchContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 250px;
+}
+.customerListMain .searchContainer input {
+  width: 250px;
+  background: rgba(106, 106, 106, 0.1);
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+.customerListMain .searchContainer .searchButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  color: white;
+  cursor: pointer;
+  background: none;
+}
+.customerListMain .searchContainer .searchButton:hover {
+  background: none;
+}
+.customerListMain .sortButton {
+  background: none;
+}
+.customerListMain .sortButton img {
+  margin-right: 5px;
+}
+.customerListMain .sortButton span {
+  color: #292929;
+  font-size: 16px;
+}
+.customerListMain .sortButton:hover {
+  background: none;
+}
+.customerListMain table {
+  width: 100%;
+  border-collapse: collapse;
+  justify-content: space-evenly;
+  align-items: left;
+  text-align: left;
+  border-top: 2px solid #DCE5EA;
+  margin-top: 6px;
+}
+.customerListMain table thead tr th {
+  font-size: 15px;
+  color: #7A7A7A;
+  font-weight: 500;
+  padding: 25px 15px 20px;
+}
+.customerListMain table tbody tr td {
+  padding: 15px;
+  color: #595959;
+  font-size: 15px;
+  font-weight: 400;
+}
+.customerListMain table tbody tr td:first-of-type {
+  position: relative;
+}
+.customerListMain table tbody tr td:first-of-type button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+.customerListMain table tbody tr td:first-of-type span {
+  position: relative;
+  padding-left: 28px;
+  top: -2px;
+  color: #292929;
+  font-size: 15px;
+  font-weight: 600;
+}
+.customerListMain table tbody tr td:last-of-type button {
+  background: none;
+}
+.customerListMain table tbody tr td:last-of-type button:hover {
+  background: none;
+  outline: none;
+}
+.customerListMain table tbody tr:nth-child(odd) {
+  background: #F8F9F9;
+}
+.customerListMain table tbody tr:hover {
+  background: rgba(106, 106, 106, 0.1);
+}
+.customerListMain .notFound {
+  position: relative;
+  min-height: calc(100vh - 210px);
+  text-align: center;
+}
+.customerListMain .notFound p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #D90D0D;
+}/*# sourceMappingURL=CustomerListCard.module.css.map */

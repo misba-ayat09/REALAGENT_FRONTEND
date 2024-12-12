@@ -1,0 +1,27 @@
+.navLink {
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+  font-size: var(--mantine-font-size-sm);
+  border-radius: 8px;
+}
+
+.navLinkActive {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.label {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+
+  color: #7a7a7a;
+}
+
+.labelActive {
+  color: #007bff;
+}

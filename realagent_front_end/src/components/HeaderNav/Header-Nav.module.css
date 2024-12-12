@@ -1,0 +1,4 @@
+.root {
+  border-top-left-radius: calc(10px * var(--scale-factor));
+  border-top-right-radius: calc(10px * var(--scale-factor));
+}

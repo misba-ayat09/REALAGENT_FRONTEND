@@ -1,0 +1,15 @@
+.card {
+    background-color: var(--mantine-color-body);
+    border-radius: var(--mantine-radius-lg);
+    border-color: var(--mantine-color-white);
+    border-width: 3px;
+    min-width: 260px;
+    gap: 10px;
+  }
+  
+  .title {
+    font-family:
+      Greycliff CF,
+      var(--mantine-font-family);
+    line-height: 1;
+  }

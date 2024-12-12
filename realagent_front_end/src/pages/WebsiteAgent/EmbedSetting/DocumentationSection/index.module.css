@@ -1,0 +1,64 @@
+.codeBlockSmall {
+  border-radius: 22px;
+  height: 40px;
+}
+
+.codeBlockMedium {
+  border-radius: 16px;
+  height: 210px;
+}
+
+.codeBlockBig {
+  border-radius: 10px;
+  height: 278px;
+}
+
+.codeBlock {
+  background-color: #E6F2FF;
+  color: #292929;
+  border: 0px;
+  cursor: default;
+}
+
+.title {
+  color: #292929;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.subTitle {
+  color: #7a7a7a;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+@media (max-width: 768px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+  .leftSection, .rightSection {
+    width: 100%;
+  }
+  .divider {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .flexContainer {
+    flex-direction: row;
+  }
+  .leftSection {
+    width: 45%;
+  }
+  .rightSection {
+    width: 55%;
+  }
+  .divider {
+    display: block;
+  }
+}
+

@@ -1,0 +1,38 @@
+.timer {
+}
+
+.timer div {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(32px * var(--scale-factor));
+  height: calc(32px * var(--scale-factor));
+  background: #ffffff;
+  border-radius: calc(7px * var(--scale-factor));
+  margin: calc(7px * var(--scale-factor));
+  text-align: center;
+}
+
+.timer div:first-child {
+  margin-left: 0;
+}
+
+.timer div:last-child {
+  margin-right: 0;
+}
+
+.separator {
+  color: #fff;
+  font-size: calc(24px * var(--scale-factor));
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.digits {
+  color: #0072c6;
+  font-size: calc(24px * var(--scale-factor));
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

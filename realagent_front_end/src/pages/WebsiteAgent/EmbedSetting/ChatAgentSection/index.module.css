@@ -1,0 +1,27 @@
+.textInputSmall {
+  border-radius: 22px;
+  height: 34px;
+}
+
+.inputDisplay {
+  background-color: #E6F2FF;
+  color: #292929;
+  border: 0px;
+  cursor: default;
+}
+
+.title {
+  color: #292929;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.subTitle {
+  color: #7a7a7a;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}

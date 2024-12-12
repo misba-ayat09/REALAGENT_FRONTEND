@@ -1,0 +1,26 @@
+.normalRemainingWords,
+.lowRemainingWords {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Roboto;
+  font-size: calc(12px * var(--scale-factor));
+  font-weight: 400;
+  line-height: calc(14px * var(--scale-factor));
+  letter-spacing: 0em;
+  text-align: center;
+
+  border-left: 1px solid #9E9E9E;
+
+  width: calc(62px * var(--scale-factor));
+  height: 70%;
+}
+
+.lowRemainingWords {
+  color: #B24432;
+}
+
+.normalRemainingWords {
+  color: #9E9E9E;
+}

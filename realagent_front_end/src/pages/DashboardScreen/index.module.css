@@ -1,0 +1,61 @@
+.tab {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+  
+    position: relative;
+    border: 1px solid var(--mantine-color-gray-2);
+    background-color: var(--mantine-color-white);
+  
+    & + & {
+      border-left-width: 0;
+  
+      @mixin rtl {
+        border-right-width: 0;
+        border-left-width: 1px;
+      }
+    }
+  
+    @mixin hover {
+      background-color: var(--mantine-color-gray-0);
+    }
+  
+    &[data-active] {
+      z-index: 1;
+      background-color: var(--mantine-color-blue-filled);
+      border-color: var(--mantine-color-blue-filled);
+      color: var(--mantine-color-white);
+  
+      @mixin hover {
+        background-color: var(--mantine-color-blue-filled-hover);
+      }
+    }
+    .border-radius-top {
+        border-top-left-radius: 10px; /* Adjust the radius value as needed */
+        border-top-right-radius: 10px; /* Adjust the radius value as needed */
+      }
+
+      /* Default Spacer */
+div.spacer {
+    flex-grow: 1;
+    min-width: 40%;
+  }
+  
+  /* Responsive Spacer for smaller screens */
+  @media (max-width: 768px) {
+    div.spacer {
+      min-width: 20%; /* Adjust the gap for smaller screens */
+    }
+  
+    .mantine-Tabs-tabList {
+      flex-wrap: wrap; /* Ensure tabs wrap on small screens */
+    }
+  
+    .mantine-Tabs-tab {
+      flex-grow: 1;
+      text-align: center; /* Center align text for smaller screens */
+    }
+  }
+      
+  }

@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    margin: 50px;
+}
+.passwordtitle {
+    font-family: Roboto;
+    font-size: calc(16px * var(--scale-factor));
+    font-weight: 500;
+    line-height: 18.75px;
+    color: #000000;
+}
+.passcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
